@@ -86,6 +86,14 @@ div.parallax > img.headshot {
   width: 50%;
 }
 
+.row-center > h5{
+  margin-bottom: 5%;
+}
+
+.row-center > a {
+  margin-bottom: 2%;
+}
+
 .btn-large {
   background-color: #f5e9dc;
   color: #333;
@@ -120,8 +128,12 @@ div.parallax > img.headshot {
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
+  .parallax.float-left{
+    width: 100%;
+  }
+
+  .container.float-right {
+    width: 100%;
   }
 }
 
@@ -134,36 +146,4 @@ div.parallax > img.headshot {
 
 footer.page-footer {
   margin: 0;
-}
-
-/*MAOtimedia page*/
-.row .gallery{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-.column .gallery{
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-.column .gallery img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column .gallery{
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column .gallery{
-    flex: 100%;
-    max-width: 100%;
-  }
 }
