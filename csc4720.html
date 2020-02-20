@@ -13,16 +13,22 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html#home">HOME</a></li>
+        <li><a href="index.html#about">ABOUT ME</a></li>
+        <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+        <li><a href="index.html#contact">CONTACT</a></li>
         <li><a href="csc4720.html">CSC 4720</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="index.html">HOME</a></li>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
         <li><a href="csc4720.html">CSC 4720</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -34,20 +40,20 @@
       <div class="row">
         <h1 class="header">CSC 4720 - Human-Computer Interaction</h1>
         <div class="row center">
-          <h5 class="header right-align light">
+          <h5 class="header left-align light">
             Semester: Spring 2020 | Instructor: Carol Bales
           </h5>
           <br><br>
-          <p class="row center">
+          <p class="row left-align">
             I took an interest in this class because I am looking to develop my skills with creating visually pleasing, yet effective user interfaces. I also want to contribute
             to improving the user experience, and I hope I can improve those skills through this class.
           </p>
-          <p class="row center">
+          <p class="row left-align">
             My skills include wireframing and prototyping, proficiency in HTML and CSS, and experience with Bootstrap, Adobe Products (including XD), Google Materialize, and some JavaScript.
           </p>
           <div class="row center">
-            <a href="#individual" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Individual Assignments</a>
-            <a href="#group" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Group Assignments</a>
+            <a href="#individual" id="download-button" class="btn-large waves-effect waves-light">Individual Assignments</a>
+            <a href="#group" id="download-button" class="btn-large waves-effect waves-light">Group Assignments</a>
           </div>
         </div>
       </div>
@@ -82,11 +88,22 @@
   <div id="group" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row left">
-          <h3 class="header col s12 light">Group Assignments</h3>
+        <h3 class="left-align header col s12 light">Group Assignments</h3>
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card teal darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Assignment 1</span>
+                <p>User Scenario + Skit</p>
+              </div>
+              <div class="card-action">
+                <a href="group-assignments/1/user-scenario.pdf" target="_blank">User Scenario PDF</a>
+                <a href="group-assignments/1/skit.pdf" target="_blank">Skit PDF</a>
+              </div>
+            </div>
+          </div>
         </div>
-
-      </div>
+      </div> <!-- end of container -->
     </div>
     <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>

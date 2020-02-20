@@ -13,13 +13,13 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT ME</a></li>
-        <li><a href="#MAOtimedia">PORTFOLIO</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="csc4720.html">CSC 4720</a></li>
       </ul>
@@ -27,7 +27,7 @@
       <ul id="nav-mobile" class="sidenav">
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT ME</a></li>
-        <li><a href="#MAOtimedia">PORTFOLIO</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="csc4720.html">CSC 4720</a></li>
       </ul>
@@ -35,26 +35,28 @@
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
+  <div id="index-banner" class="parallax-container"> <!--whole container-->
+    <div class="parallax float-left"><img class="headshot" src="images/photoofme.jpg" alt="Unsplashed background img 1"/></div>
+    <!--float headshot left-->
+      <div class="container float-right"> <!--float text right-->
         <br><br>
-        <h1 class="header white-text">Hello, I'm Camille. <br>Programmer, <br>Student, <br>Dancer.</h1>
+        <h1 class="header">Hello, I'm Camille. <br>Student, <br>Programmer, <br>Dancer.</h1>
         <div class="row center">
-          <h5 class="header col s12 light">website under construction</h5>
+          <h5 class="header col s12 light">Thank you for visiting my page! I am a Georgia State University senior, graduating in Spring 2020.
+          I'm from Columbus, Georgia, but I've lived in Atlanta for the last four years. I have been interested in full-stack development during
+          my college career, however, these last couple of years I've become more focused on front-end development. When I'm not coding, you
+          will probably find me dancing :)</h5>
         </div>
         <div class="row center">
-          <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">button</a>
+          <a href="#" id="download-button" class="btn-large waves-effect waves-light">button</a>
         </div>
         <br><br>
 
       </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
-  <div class="container">
+  <div id="about"class="container">
     <div class="section">
 
       <!--   Icon Section   -->
@@ -91,7 +93,7 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div id="portfolio" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -117,7 +119,7 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div id="contact" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
