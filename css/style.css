@@ -72,6 +72,9 @@ h1 {
     text-transform: uppercase;
     color:#333;
 }
+.header.center.col.s12.light {
+  margin-top: 20px;
+}
 
 h5 {
   font-family: Karla, sans-serif;
