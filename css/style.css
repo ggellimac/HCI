@@ -18,6 +18,18 @@ nav ul a,
 nav .brand-logo {
   color: #333;
 }
+.contact>li>a {
+  color: #333;
+}
+.contact>li>a:hover {
+  color: #333;
+  text-decoration: underline solid #e4c4a1;
+}
+
+.contact>li>a:visited {
+  color: #333;
+  text-decoration: none;
+}
 
 nav {
   background-color: white;
@@ -84,7 +96,9 @@ h5 {
   text-align: left;
 }
 
-
+footer h5, p {
+  color: #333;
+}
 div.parallax > img.headshot {
   width: 50%;
 }
@@ -119,6 +133,11 @@ div.parallax > img.headshot {
   .parallax-container .section {
     width: 100%;
   }
+
+.my-beige {
+  background-color: #ffe1c5 !important;
+}
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
