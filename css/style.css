@@ -85,6 +85,12 @@ h1 {
     color:#333;
 }
 
+#look {
+  font-weight: 200;
+  font-size: 100px;
+  margin-top: 80px;
+}
+
 h3 {
   color: #333;
   font-family: Oswald, sans-serif;
